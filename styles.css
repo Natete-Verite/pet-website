@@ -1,0 +1,409 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(248,254,255);
+}
+section{
+    background-color: rgb(230, 248, 255);
+    height: 600px;
+}
+.us{
+    margin-right: 83%;
+    font-size: 30px;
+}
+.point{
+    color: rgb(54,150,162);
+    font-size: 40px;
+}
+.nav-bar{
+    text-align: right;
+    margin-right: 10%;
+    margin-bottom: 10%;
+    padding-top: 3%;
+    
+}
+.nav-bar ul{
+    display: flex;
+    list-style: none;
+    float: right;
+    justify-content: space-between;
+}
+.nav-bar li{
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(8, 8, 27);
+    text-decoration: none;
+}
+.nav-bar a{
+    padding: 14px;
+    text-decoration: none;
+    color: rgb(90, 90, 151);
+}
+.text h5{
+    color: rgb(230, 159, 29);
+}
+.text h1{
+    font-size: 60px;
+    font-weight: bold;
+}
+.text button{
+    background-color: rgb(5, 152, 197);
+    border-radius: 6px;
+    width: 150px;
+    height: 40px;
+    border: none;
+    text-align: center;
+
+}
+text p{
+    margin-top: -5%;
+}
+.fa-play{
+    display: inline-block;
+    background-color: rgb(213,238,240);
+    padding: 15px;
+    outline: none;
+    border-radius: 70px;
+    color: rgb(57,159,170);
+    margin-left: 2%;
+}
+.text{
+    margin-left: 10%;
+}
+.image{
+    float: left;
+    display: block;
+    padding-left: 90px;
+    margin-top: -25%;
+    margin-right: 30%;
+    margin-left: 58%;
+    border-radius: 100%;
+    width: 200px;
+    background-color:rgb(233,250,252);
+    border: rgb(207,228,231) solid 50px;
+}
+
+.section-one{
+    background-color: rgb(244, 246, 247);
+    margin-top: -2% ;
+    width: 100%;
+    height: 80%;
+}
+.section-one h2{
+    margin-left: 10%;
+    margin-top: 2%;
+    font-size: 40px;
+    padding-top: 5%;
+
+}
+.section-one p{
+    margin-left: 70%;
+    margin-top: -5%;
+}
+.radiology{
+    background-color: rgb(255,255,255);
+    width: 300px;
+    height: 200px;
+    margin-top: 5%;
+    margin-left: 8%;
+}
+.radiology h3{
+    margin-left: 10%;
+    margin-top: -5%;
+}
+.radiology p{
+    margin-left: 10%;
+    margin-bottom: -5%;
+}
+.surgical{
+    background-color: rgb(255,255,255);
+    width: 200px;
+    height: 100px;
+    margin-top: 10%;
+    margin-left: 28%;
+}
+.surgical h3{
+    margin-left: 10%;
+    margin-top: 5%; 
+}
+.surgical p{
+    margin-left: 10%;
+    margin-top: 1%; 
+}
+.ambulance{
+    background-color: rgb(255,255,255);
+    width: 200px;
+    height: 100px;
+    margin-top: -28%;
+    margin-left: 35%;
+}
+.ambulance h3{
+    margin-left: 40%;
+    margin-top: -23%; 
+}
+.ambulance p{
+    margin-left: 40%;
+    margin-top: 1%; 
+}
+.partirution{
+    background-color: rgb(255,255,255);
+    width: 300px;
+    height: 100px;
+    margin-bottom: -25%;
+    margin-left: 20%;
+}
+.partirution h3{
+    margin-left: 40%;
+    margin-top: 5%; 
+}
+.partirution p{
+    margin-left: 40%;
+    margin-top: 1%; 
+}
+.dental{
+    background-color: rgb(255,255,255);
+    width: 200px;
+    height: 100px;
+    margin-top: -25%;
+    margin-left: 60%;
+}
+.dental h3{
+    margin-left: 70%;
+    margin-top: -23%;
+}
+.dental p{
+    margin-left: 70%;
+    margin-top: 1%;
+}
+.hostel{
+    background-color: rgb(255,255,255);
+    width: 300px;
+    height: 100px;
+    margin-bottom: -35%;
+    margin-left: 20%;
+}
+.hostel h3{
+    margin-left: 70%;
+    margin-top: 5%;
+}
+.hostel p{
+    margin-left: 70%;
+    margin-top: 1%;
+}
+.section-one-one{
+    margin-top: 13%;
+}
+.section-two{
+    display: flex;
+} 
+.titl h1{
+    font-size: 40px;
+    font-weight: bold;
+    margin-left: 10%;
+    margin-bottom: 30%;
+}
+.parag{
+    margin-top: -20%;
+    
+}
+.parag .one{
+    margin-left: 10%;
+    margin-top: -1%;
+    font-size: 20px;
+}
+.parag .two{
+    margin-left: 10%;
+    margin-bottom: 5%;
+    font-size: 20px;
+}
+.best button{
+    background-color: rgb(61,165,176);
+    border-radius: 6px;
+    width: 150px;
+    height: 40px;
+    border: none;
+    text-align: center;
+    margin-left: 10%;    
+}
+.best{
+    margin-right: -50%;
+    background-color: rgb(233,250,252);
+    
+}
+.image-one{
+    border-radius: 5px;
+    background-color: rgb(207,228,231);
+    border: none;
+    padding-bottom: 5%;
+    padding-top: 2%;
+    padding-right: 28%;
+    margin-left: 10%;  
+    width: 70px; 
+}
+.section-three{
+    background-color: rgb(255, 255, 250);
+    
+}
+.section-three h1{
+    margin-left: 10%;
+    margin-top: 5%;
+    font-size: 45px;
+    font-weight: bold;
+}
+.comments{
+    display: flex;
+}
+#title{
+    display: flex;
+}
+#title p{
+    margin-top: 5%;
+    margin-left: 10%;
+}
+.comment-one{
+    margin-left: 10%;
+    
+}
+.comment-two{
+    margin-left: 20%;
+} 
+.woman{
+    background-color: rgb(173, 128, 128);
+    border-radius: 400px;
+    width: 45px;
+    margin-left: 10%;
+}
+ .man{
+    background-color: rgb(129, 144, 185);
+    border-radius: 400px;
+    width: 45px;
+    margin-left: 10%;
+    margin-top: 20%;
+}
+.str{
+    width: 60px;
+}
+.star{
+    width: 60px;
+} 
+.section-four{
+    background-color: rgb(255,255,255);
+
+}
+.section-four h1{
+    margin-left: 10%;
+    margin-top: 5%;
+    font-size: 45px;
+    font-weight: bold;
+}
+.docImages{
+    display: flex;
+    margin-top: -37%;
+    margin-left: 10%;
+    gap: 5rem;
+}
+.docImage{
+    background-color: rgb(254,245,240);
+    border-radius: 10px;
+    width: 250px;
+    margin-top: 40%;
+    margin-bottom: 20%;
+}
+.docImagee{
+    background-color: rgb(227,252,254);
+    border-radius: 10px;
+    width: 250px;
+    margin-top: 40%;
+    margin-bottom: 20%;
+}
+.docImageee{
+    background-color: rgb(254,245,240);
+    border-radius: 10px;
+    width: 250px;
+    margin-top: 40%;
+    margin-bottom: 20%;
+}
+.subscribe{
+    margin-left: 5%;
+    text-align: center;
+    font-size: 40px;
+}
+.email p{
+    background-color: rgb(255,255,255);
+    margin-top: 45px;
+    margin-left: 5%;
+    padding: 5%;
+    width: 700px;
+    border-radius: 10px;
+    display: inline-flex;
+
+}
+#subscribeOne{
+    background-color: rgb(58,161,171);
+    font-weight: 500px;
+    margin-left: 70%;
+    margin-top: -10%;
+    padding-top:-25% ;
+    width: 150px;
+    height: 60px;
+    border: none;
+    border-radius: 6px;
+
+}
+.search{
+    background-color: rgb(233,250,252);
+    align-items: center;
+    height: 70%;
+    border-radius: 8px;
+    width: 80%;
+    padding-bottom: 35px;
+    margin-left: 10%;
+    /* margin-right: 20%; */
+   
+}
+
+.section-five{
+    background-color: rgb(248,254,255);
+}
+.information{
+    display: flex;
+    margin-left: 5%;
+}
+.column-one{
+    margin-left: 6%;
+}
+.socials{
+    display: flex;
+}
+.facebook{
+    border: 2px;
+    border-radius: 15px;
+    color: rgb(53,88,145);
+}
+.twitter{
+    border: 2px;
+    border-radius: 15px;
+    color:rgb(73,177,232);
+    padding-left: 6%;
+}
+.googleplus{
+    border: 2px;
+    border-radius: 15px;
+    color: rgb(223,70,56);
+    padding-left: 6%;
+}
+.linkedin{
+    border: 2px;
+    border-radius: 15px;
+    color: rgb(8,118,183);
+    padding-left: 6%;
+}
+.column-two{
+    margin-left: 12%;
+}
+.column-three{
+    margin-left: 17%;
+}
+.column-four{
+    margin-left: 16%;
+}
